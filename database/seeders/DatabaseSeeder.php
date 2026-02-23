@@ -17,14 +17,14 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        //$this->call(AdminSeeder::class);
-        //$this->call(UserSeeder::class);
-        //$this->call(CategorySeeder::class);
-        //$this->call(SubCategorySeeder::class);
-        //$this->call(ChildCategorySeeder::class);
-        //$this->call(BrandSeeder::class);
-        //$this->call(ProductSeeder::class);
-        //$this->call(ProductVariantSeeder::class);
+        $this->call(AdminSeeder::class);
+        $this->call(UserSeeder::class);
+        $this->call(CategorySeeder::class);
+        $this->call(SubCategorySeeder::class);
+        $this->call(ChildCategorySeeder::class);
+        $this->call(BrandSeeder::class);
+        $this->call(ProductSeeder::class);
+        $this->call(ProductVariantSeeder::class);
         $this->call(ProductVariantItemSeeder::class);
         $this->call(PermissionSeeder::class);
     }

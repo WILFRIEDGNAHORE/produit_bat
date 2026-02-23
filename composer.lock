@@ -2996,16 +2996,16 @@
         },
         {
             "name": "openspout/openspout",
-            "version": "v4.30.0",
+            "version": "v4.28.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openspout/openspout.git",
-                "reference": "df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5"
+                "reference": "ab05a09fe6fce57c90338f83280648a9786ce36b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5",
-                "reference": "df9b0f4d229c37c3caa5a9252a6ad8a94efb0fb5",
+                "url": "https://api.github.com/repos/openspout/openspout/zipball/ab05a09fe6fce57c90338f83280648a9786ce36b",
+                "reference": "ab05a09fe6fce57c90338f83280648a9786ce36b",
                 "shasum": ""
             },
             "require": {
@@ -3015,17 +3015,17 @@
                 "ext-libxml": "*",
                 "ext-xmlreader": "*",
                 "ext-zip": "*",
-                "php": "~8.3.0 || ~8.4.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.75.0",
-                "infection/infection": "^0.29.14",
-                "phpbench/phpbench": "^1.4.1",
-                "phpstan/phpstan": "^2.1.16",
-                "phpstan/phpstan-phpunit": "^2.0.6",
-                "phpstan/phpstan-strict-rules": "^2.0.4",
-                "phpunit/phpunit": "^12.1.5"
+                "friendsofphp/php-cs-fixer": "^3.68.3",
+                "infection/infection": "^0.29.10",
+                "phpbench/phpbench": "^1.4.0",
+                "phpstan/phpstan": "^2.1.2",
+                "phpstan/phpstan-phpunit": "^2.0.4",
+                "phpstan/phpstan-strict-rules": "^2",
+                "phpunit/phpunit": "^11.5.4"
             },
             "suggest": {
                 "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
@@ -3073,7 +3073,7 @@
             ],
             "support": {
                 "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/v4.30.0"
+                "source": "https://github.com/openspout/openspout/tree/v4.28.5"
             },
             "funding": [
                 {
@@ -3085,7 +3085,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-20T12:33:06+00:00"
+            "time": "2025-01-30T13:51:11+00:00"
         },
         {
             "name": "php-flasher/flasher",
@@ -7189,24 +7189,24 @@
         },
         {
             "name": "yajra/laravel-datatables-export",
-            "version": "v12.0.1",
+            "version": "v12.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables-export.git",
-                "reference": "d947b5b1af9e21f735f7784ad535f2cfb4a5cd82"
+                "reference": "6322275f1fe46558838074898393d087e9a60b05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables-export/zipball/d947b5b1af9e21f735f7784ad535f2cfb4a5cd82",
-                "reference": "d947b5b1af9e21f735f7784ad535f2cfb4a5cd82",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables-export/zipball/6322275f1fe46558838074898393d087e9a60b05",
+                "reference": "6322275f1fe46558838074898393d087e9a60b05",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "livewire/livewire": "^2.12.8|^3.5.6",
+                "livewire/livewire": "^2.12.8|^3.5.6|^4.0",
                 "openspout/openspout": "^4.24.5",
                 "php": "^8.2",
-                "phpoffice/phpspreadsheet": "^1.29.9|^2.3.7|^3.9.1|^4.0.0",
+                "phpoffice/phpspreadsheet": "^1.29.9|^2.3.7|^3.9.1|^4.0.0|^5.0.0",
                 "yajra/laravel-datatables-buttons": "^12.0"
             },
             "require-dev": {
@@ -7254,7 +7254,7 @@
             ],
             "support": {
                 "issues": "https://github.com/yajra/laravel-datatables-export/issues",
-                "source": "https://github.com/yajra/laravel-datatables-export/tree/v12.0.1"
+                "source": "https://github.com/yajra/laravel-datatables-export/tree/v12.3.1"
             },
             "funding": [
                 {
@@ -7262,7 +7262,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-09T08:12:39+00:00"
+            "time": "2026-01-28T05:15:39+00:00"
         },
         {
             "name": "yajra/laravel-datatables-fractal",
@@ -10958,5 +10958,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
